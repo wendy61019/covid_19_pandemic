@@ -1,0 +1,10 @@
+name: covid_19_pandemic
+channels:
+ - conda-forge
+dependencies:
+ - python=3.12
+ - pandas=3.0
+ - plotly=6.7
+ - streamlit=1.58
+ - pip:
+    - gradio==6.19
